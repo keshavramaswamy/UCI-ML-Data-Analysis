@@ -1,0 +1,62 @@
+1.892
+2.-
+3.489
+4.4 input plus one class
+5.2
+
+SVM
+1.0
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00       266
+          1       1.00      1.00      1.00       196
+
+avg / total       1.00      1.00      1.00       462
+
+DTree
+0.978354978355
+             precision    recall  f1-score   support
+
+          0       0.97      0.99      0.98       260
+          1       0.99      0.96      0.97       202
+
+avg / total       0.98      0.98      0.98       462
+
+LDA
+0.978354978355
+             precision    recall  f1-score   support
+
+          0       0.96      1.00      0.98       256
+          1       1.00      0.95      0.98       206
+
+avg / total       0.98      0.98      0.98       462
+
+NBC
+0.859307359307
+             precision    recall  f1-score   support
+
+          0       0.89      0.87      0.88       271
+          1       0.82      0.84      0.83       191
+
+avg / total       0.86      0.86      0.86       462
+
+Logistic
+0.995670995671
+             precision    recall  f1-score   support
+
+          0       0.99      1.00      1.00       264
+          1       1.00      0.99      0.99       198
+
+avg / total       1.00      1.00      1.00       462
+
+KNN
+1.0
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00       266
+          1       1.00      1.00      1.00       196
+
+avg / total       1.00      1.00      1.00       462
+
+
+ 

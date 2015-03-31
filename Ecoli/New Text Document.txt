@@ -1,0 +1,102 @@
+1.233
+2.-
+3.103
+4.7 input plus one class
+5.8
+
+
+
+
+SVM
+0.73786407767
+             precision    recall  f1-score   support
+
+         cp       1.00      0.92      0.96        51
+         im       0.94      0.53      0.68        32
+        imL       0.00      0.00      0.00         0
+        imS       0.00      0.00      0.00         0
+        imU       0.00      0.00      0.00         0
+         om       0.00      0.00      0.00         0
+        omL       0.00      0.00      0.00         0
+         pp       0.86      0.60      0.71        20
+
+avg / total       0.96      0.74      0.82       103
+C:\Users\Keshav\Anaconda\lib\site-packages\sklearn\metrics\metrics.py:1773: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+C:\Users\Keshav\Anaconda\lib\site-packages\sklearn\lda.py:161: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+DTree
+0.815533980583
+             precision    recall  f1-score   support
+
+         cp       0.96      0.94      0.95        48
+         im       0.89      0.70      0.78        23
+        imL       0.00      0.00      0.00         0
+        imS       0.00      0.00      0.00         0
+        imU       0.62      0.80      0.70        10
+         om       0.67      0.44      0.53         9
+        omL       0.00      0.00      0.00         0
+         pp       0.79      0.85      0.81        13
+
+avg / total       0.86      0.82      0.83       103
+
+LDA
+0.922330097087
+             precision    recall  f1-score   support
+
+         cp       0.98      0.98      0.98        47
+         im       0.94      0.74      0.83        23
+        imL       1.00      1.00      1.00         1
+        imS       0.00      0.00      0.00         0
+        imU       0.69      0.90      0.78        10
+         om       1.00      1.00      1.00         6
+        omL       1.00      1.00      1.00         3
+         pp       0.93      1.00      0.96        13
+
+avg / total       0.94      0.92      0.93       103
+
+NBC
+0.825242718447
+             precision    recall  f1-score   support
+
+         cp       1.00      0.98      0.99        48
+         im       0.89      0.76      0.82        21
+        imL       0.00      0.00      0.00         0
+        imS       0.00      0.00      0.00         0
+        imU       0.54      0.88      0.67         8
+         om       0.17      0.33      0.22         3
+        omL       0.33      1.00      0.50         1
+         pp       0.93      0.59      0.72        22
+
+avg / total       0.90      0.83      0.85       103
+
+Logistic
+0.728155339806
+             precision    recall  f1-score   support
+
+         cp       1.00      0.87      0.93        54
+         im       0.94      0.53      0.68        32
+        imL       0.00      0.00      0.00         0
+        imS       0.00      0.00      0.00         0
+        imU       0.00      0.00      0.00         0
+         om       0.00      0.00      0.00         0
+        omL       0.00      0.00      0.00         0
+         pp       0.79      0.65      0.71        17
+
+avg / total       0.95      0.73      0.82       103
+
+KNN
+0.854368932039
+             precision    recall  f1-score   support
+
+         cp       1.00      0.98      0.99        48
+         im       0.72      0.62      0.67        21
+        imL       0.00      0.00      0.00         0
+        imS       0.00      0.00      0.00         0
+        imU       0.46      0.55      0.50        11
+         om       1.00      1.00      1.00         6
+        omL       1.00      1.00      1.00         3
+         pp       0.93      0.93      0.93        14
+
+avg / total       0.88      0.85      0.86       103

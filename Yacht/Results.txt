@@ -1,0 +1,28 @@
+Rsquared value:
+0.609836741321
+Ceffecients:
+[   0.24511559   -2.83932205   11.78462189   -4.47640484  -11.65283467
+  122.26969821]
+Intercept:
+-23.6764727309
+Mean Squared Error:
+83.4044642853
+
+
+Decision Tree:
+Rsquared value:
+0.989235451666
+Mean Squared Error:
+2.3011172043
+
+
+Exponential
+Rsquared value:
+-0.155116920061
+Ceffecients:
+[  1.42261734e-02  -2.49226925e+00  -1.28018229e-01   8.05320826e-02
+   1.26144507e-04   1.79362959e+01]
+Intercept:
+-2.32842688702
+Mean Squared Error:
+246.927166414
